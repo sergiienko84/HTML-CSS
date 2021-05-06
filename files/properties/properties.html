@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="../../renewed.html">HTML-CSS</a>
+    </div>
+    <div class="content">
+      <div class="html">
+        <button class="dropbtn">HTML</button>
+          <div class="dropdown-content">
+            <a href="../validator/validator.html">Перевірка на валідність</a>
+            <a href="../beginning/beginning.html">Початок документу</a>
+            <a href="../other-html/other-html.html">Різне</a>
+            <a href="../schedules/schedules.html">Списки</a>
+            <a href="../links/links.html">Посилання</a>
+            <a href="../pics/pics.html">Картинки</a>
+            <a href="../tables/tables.html">Таблиці</a>
+          </div>
+    </div>  
+    </div>
+    
+<!--  Друга менюшка  -->
+
+    <div class="content2">
+      <div class="css">
+        <button class="dropbtn2">CSS</button>
+        <div class="dropdown-content2">
+          <a href="../connectmethods/connectmethods.html">Методи підключення</a>
+          <a href="../classcreate/classcreate.html">Створення класу</a>
+          <a href="../properties/properties.html">Властивості</a>
+          <a href="../other-css/other-css.html">Різне</a>
+          <a href="../shortenning/shorthenning.html">Скорочення</a>
+          <a href="../pseudoelem/pseudoelem.html" href="#">Псевдоелементи</a>
+          <a href="../tip/tip.html">Шпаргалки</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ 
+
+  <div class="properties">
+    
+        <!--     BLOCK 1     -->
+
+    <div class="block1">  
+      <h2>Властивості:</h2>
+    <p><b>/* */</b> - коментарі</p>
+    <p><b>a</b>:</p>
+    <p>text-align не працює на нього. Потрібно брати в контейне div і застосовувати text-align для контейнеру.</p>
+    <ul>
+      <li>a:link - ще не відвідана</li>
+      <li>a:visited - відвідана</li>
+      <li>a:hover - коли наводиш на неї</li>
+    </ul>
+    <p><em>якщо потрібно виділити лише селектор, то: #cod a:link{}</em></p>
+    <p><b>auto</b> - <a target="blank" href="https://habr.com/ru/company/ruvds/blog/494716/">https://habr.com/ru/company/ruvds/blog/494716/</a></p>
+    <p><b>background-color</b></p> - колір фону:
+    <pre><code>
+ body{
+   background-color: #3366CC; /* Цвет фона веб-страницы */
+ } 
+ h1{
+   background-color: RGB(249, 201, 16); /* Цвет фона под заголовком */
+ }
+    </code></pre>
+    </div>    
+
+        <!--     BLOCK 2    -->
+
+    <div class="block2">   
+        <p>
+    <b>background-image</b> - малюнок для фону елементу. Але для логтипу краще використовувати елемент img <span class="cod">   background-image:url(images/1.png);</span>
+    </p>
+    <p>
+    <b>background-position</b> - розташування фонового малюнку: <a target="blank" href="http://htmlbook.ru/css/background-position">http://htmlbook.ru/css/background-position</a>
+    </p>
+    <p
+    ><b>background-repeat: no-repeat;</b> - щоб не повторювався малюнок фону <a target="blank" href="http://htmlbook.ru/css/background-repeat">http://htmlbook.ru/css/background-repeat</a>
+    </p>
+    <p><b>background-position</b> - розташування малюнку фону: <a target="blanck" href="http://htmlbook.ru/css/background-position">http://htmlbook.ru/css/background-position</a>
+    </p>
+    <p><b>border </b><em>(px)</em> - обведення тексту. 
+    </p>
+    <p>
+      <b>border-bottom/top/right/left</b> - розмежувальна лінія: <a target="blank" href="http://htmlbook.ru/css/border-bottom">http://htmlbook.ru/css/border-bottom</a>
+    </p>
+    <p>
+      <b>border-top/bottom/right/left-color</b> коли потрібно задати колір одної лінії
+    </p>
+    <p>
+      <b>border-color</b> - колір розмежувальної лінії
+    </p>
+    <p>
+      <b>border-width</b> - ширина розмежувальної лінії
+    </p>
+    <p>
+      <b>border-style</b> - стиль розмежувальної лінії <a target="blank" href="http://htmlbook.ru/css/border-style">http://htmlbook.ru/css/border-style</a>
+    </p>
+    <p>
+      <b>box-shadow</b> - тінь: <a target="blank" href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp">https://www.w3schools.com/cssref/css3_pr_box-shadow.asp</a>
+    </p>
+    <p>
+    <b>clear</b> - забороняє плаваючому елементу знаходитися всередині <a href="http://htmlbook.ru/css/clear" target="blank">http://htmlbook.ru/css/clear</a>
+    </p>
+    <p>
+    <b>box-sizing</b> - як рахувати контент: <a target="blank" href="http://code.mu/ru/markup/manual/css/property/box-sizing/">http://code.mu/ru/markup/manual/css/property/box-sizing/</a>
+    </p>
+    <p>
+    <b>cursor</b> - <a target="blank" href="http://htmlbook.ru/css/cursor">http://htmlbook.ru/css/cursor</a>
+    </p>
+    <p>
+    <b>display</b> block - елемент веде себе, як блочний, а inline - рядковий, inline-block - разом. Більше інформації: <a target="blank" href="https://www.youtube.com/watch?v=za_2ogi312Y&feature=emb_logo">https://www.youtube.com/watch?v=za_2ogi312Y&feature=emb_logo</a> <a target="blank" href="http://htmlbook.ru/css/display">http://htmlbook.ru/css/display</a>
+    </p>
+    <p>
+      <b>display:flex;</b> - елемент стає, як би гумовим, який розтягується. Яким саме чином розтягується, дивись тут: <a target="blank" href="https://www.w3schools.com/css/css3_flexbox_container.asp">https://www.w3schools.com/css/css3_flexbox_container.asp</a>
+    </p>
+    <p>
+    <b>float</b> - вирівнювання по сторінці: <a target="blank" href="http://htmlbook.ru/css/float">http://htmlbook.ru/css/float</a>
+    </p>
+   </div> 
+
+        <!--    BLOCK 3     -->
+
+        <div class="block3">
+    <p>
+    <b>font-weight </b><em>(lighter/normal/bold/bolder)</em> - жирність.
+    </p>
+    <p>
+    <b>font-style </b><em>(italic/normal/oblique)</em> - курсив.
+    </p>
+    <p>
+    <b>font-size </b><em>(px/pt/%/em)</em> - розмір тексту: <a href="https://www.w3schools.com/cssref/pr_font_font-size.asp" target="blank">https://www.w3schools.com/cssref/pr_font_font-size.asp</a>. <em>Примітка: краще використовувати для <b>body</b> розміри словами, а решту у відсотках, або em.</em>
+    </p>
+    <p>
+    <b>font-family</b> - тип шрифту. <a target="_blank" href="http://old.code.mu/books/css/osnovnye-css-svojstva-dlya-novichkov.html#web-fonts">http://old.code.mu/books/css/osnovnye-css-svojstva-dlya-novichkov.html</a><br>
+    Існує 5 типів шрифту, які необхідно вказувати у кінці списку: serif, sans-serif, cursive, fantasy та monospace.
+    </p>
+    
+    <p>
+      <b>height </b><em>(px/%)</em> - висота змісту.
+    </p>  
+    <p>
+      <b>letter-spacing</b> - інтервал мід символами
+    </p>
+    <p>
+      <b>line-height </b><em>(px/em/%/число)</em> - міжрядковий інтервал. Якщо задати просто число, це значитиме, що розмір інтервалу залежатиме від самого шрифту. <a target="blank" href="https://puzzleweb.ru/css/pr_line-height.php">https://puzzleweb.ru/css/pr_line-height.php</a>
+    </p>
+    <p>
+      <b>list-style</b> - стиль списку: <a target="blank" href="http://htmlbook.ru/css/list-style">http://htmlbook.ru/css/list-style</a>
+    </p>
+    <p>
+      <b>list-style-position</b> - коли потрібно, щоб не виходили за рамку позначки списку (необхідне значення inside) <a target="blank" href="http://code.mu/ru/markup/manual/css/property/box-sizing/">http://code.mu/ru/markup/manual/css/property/box-sizing/</a>
+    </p>
+    <p>
+      <b>margin-top/bottom/left/right</b> - відступ. Зручніше його використовувати, ніж line-height: <a target="_blank" href="http://htmlbook.ru/faq/kak-izmenit-rasstoyanie-mezhdu-abzatsami-teksta">http://htmlbook.ru/faq/kak-izmenit-rasstoyanie-mezhdu-abzatsami-teksta</a> (можна задавати значення auto)
+    </p>
+    <p>
+      <b>outline</b> - замість margin, але не займає місця: <a target="blank" href="http://code.mu/ru/markup/manual/css/property/outline/">http://code.mu/ru/markup/manual/css/property/outline/</a>
+    </p>
+    <p>
+      <b>padding (-left/right/top/bottom)</b> - відстань між змістом (текстом) та границею <em>(border)</em> елементу (значення auto не існує, на відміну від margin)
+    </p>  
+    <p>
+      <b>position</b> (static/relative/fixed/absolute/sticky) - <a target="blank" href="https://www.w3schools.com/css/css_positioning.asp">https://www.w3schools.com/css/css_positioning.asp</a>
+    </p>  
+    <p>
+      <b>text-align </b><em>(left/right/center/justify)</em> - вирівнювання змісту (тексту). <em>Працює лише із блочними елементами. Його не можна застосувати до, наприклад, елементу img окремо, лише, якщо цей елемент буде всередині блочного елементу.</em>
+    </p>
+    <p>
+      <b>text-decoration</b> (none/underline/overline/line-through)
+    </p>
+    <p>
+      <b>text-indent </b>(відступ першого рядка абзацу): <em>px</em>
+    </p>
+    <p>
+      <b>text-transform</b> - <a target="blank" href="http://htmlbook.ru/css/text-transform">http://htmlbook.ru/css/text-transform</a>
+    </p>
+    <p>
+      <b>vertical-align </b>(лише для таблиць): <em>bottom/middle/top</em>
+    </p>
+    <p>
+      <b>width </b><em>(px/pt)</em> - ширина змісту.
+    </p>
+    <p>
+      <b>z-pozition</b> - <a target="blank" href="http://htmlbook.ru/css/z-index">http://htmlbook.ru/css/z-index</a>
+    </p>
+      </div>
+
+  </div>
+
+  
+  
+</body>
+</html>

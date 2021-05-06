@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="../../renewed.html">HTML-CSS</a>
+    </div>
+    <div class="content">
+      <div class="html">
+        <button class="dropbtn">HTML</button>
+          <div class="dropdown-content">
+            <a href="../validator/validator.html">Перевірка на валідність</a>
+            <a href="../beginning/beginning.html">Початок документу</a>
+            <a href="../other-html/other-html.html">Різне</a>
+            <a href="../schedules/schedules.html">Списки</a>
+            <a href="../links/links.html">Посилання</a>
+            <a href="../pics/pics.html">Картинки</a>
+            <a href="../tables/tables.html">Таблиці</a>
+          </div>
+    </div>  
+    </div>
+    
+<!--  Друга менюшка  -->
+
+    <div class="content2">
+      <div class="css">
+        <button class="dropbtn2">CSS</button>
+        <div class="dropdown-content2">
+          <a href="../connectmethods/connectmethods.html">Методи підключення</a>
+          <a href="../classcreate/classcreate.html">Створення класу</a>
+          <a href="../properties/properties.html">Властивості</a>
+          <a href="../other-css/other-css.html">Різне</a>
+          <a href="../shortenning/shorthenning.html">Скорочення</a>
+          <a href="../pseudoelem/pseudoelem.html" href="#">Псевдоелементи</a>
+          <a href="../tip/tip.html">Шпаргалки</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="other-css">
+     <img src="other-css.png" alt="Інше">
+
+    <p>
+      <b>Створення прозорого фону:</b> <a target="blank" href="https://lumpics.ru/how-to-make-a-transparent-background-from-the-picture-online/">https://lumpics.ru/how-to-make-a-transparent-background-from-the-picture-online/</a> <b>Lunapic: <a target="blank" href="https://www12.lunapic.com/editor/">https://www12.lunapic.com/editor/</a></b>
+    </p>
+    <p id="classid">
+      <b>Різниця між класом та ідентифікатором:</b>
+      <br>
+    <pre class="em">
+class - для багатьох елементів. 
+    HTML: class="n";
+    CSS: .n - для будь-якого елементу, p.n - лише для абзаців.
+id - для унікального елементу.
+    HTML: id="n"
+    CSS: #n - для будь-якого елементу, p#n - лише для абзаців.  
+    </pre>
+    </p>
+    <p>
+      <b>div</b> - елементу можна привласнити як класс class, так і ідентифікатор id (<a href="#classid">Дивись вище</a>) 
+    <br>Створення нащадків:
+    <pre><code>
+    div h2{
+      color: black;        
+    }
+    #elixir h2{
+      color: black;
+    }
+  div p b{
+      color: black;        
+    }   
+    </code></pre>
+    <p>
+      <b>p.test</b> - такой селектор выбирает абзацы с классом test. А вот если я сделаю так: <b>p .test</b> (поставлю пробел), то выберу все элементы с классом test, находящиеся внутри абзацев.
+      Детальніше тут: <a target="blank" href="http://old.code.mu/books/css/osnovy-raboty-s-selektorami-css-dlya-novichkov.html">http://old.code.mu/books/css/osnovy-raboty-s-selektorami-css-dlya-novichkov.html</a>    
+    </p>
+    <p>
+      <b>transition: color 0.2s linear;</b> - плавно міняє колір. Наприклад:
+      <pre><code>
+.nav__link{
+  color:#fff;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+.nav__link:hover{
+  color: #fce38a;
+}     
+      </code></pre>
+    </p>
+  </div>
+  
+</body>
+</html>
